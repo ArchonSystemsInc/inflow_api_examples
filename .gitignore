@@ -10,3 +10,5 @@ debug.log
 /.vscode/.react
 bin
 obj
+
+rust/target/

@@ -1,5 +1,3 @@
-import requests
-
 companyId = ""
 apiKey = ""
 apiVersion = "2021-04-26"
@@ -10,7 +8,4 @@ headers = {
     "Accept": f"application/json;version={apiVersion}"
 }
 
-url = f"https://cloudapi.inflowinventory.com/{companyId}/sales-orders"
-
-response = requests.get(url, headers=headers)
-print(response)
+baseUrl = f"https://cloudapi.inflowinventory.com/{companyId}/products"
